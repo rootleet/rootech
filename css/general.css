@@ -7,6 +7,12 @@
     background-repeat: no-repeat;
 }
 
+.no-bg
+{
+    background: none !important;
+}
+
+
 .login_btn
 {
     height: 50px;
