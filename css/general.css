@@ -12,6 +12,26 @@
     background: none !important;
 }
 
+#aboutUs
+{
+    min-height: 100vh !important;
+    overflow: visible !important;
+    background-color: #BBDEFB !important;
+}
+
+
+
+.procedure_box
+{
+    height: 150px;
+    width: 150px;
+}
+
+.procedure_box:hover
+{
+    background: #ccc!important;
+}
+
 
 .login_btn
 {
