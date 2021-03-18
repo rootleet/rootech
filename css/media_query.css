@@ -33,6 +33,10 @@
     {
         display: none !important;
     }
+    #desktop
+    {
+        display: block !important;
+    }
 }
 @media (min-width:1281px)
 {
@@ -40,5 +44,9 @@
     #mobile
     {
         display: none !important;
+    }
+    #desktop
+    {
+        display: block !important;
     }
 }
