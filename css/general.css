@@ -42,7 +42,7 @@
 main
 {
     height: 100vh !important;
-    overflow: hidden !important;
+    overflow: hidden;
 }
 
 .btn_main
