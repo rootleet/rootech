@@ -11,40 +11,43 @@
 </head>
 <body class="bg-light">
 
-    <!--DESKTOP-->
-    <div id="desktop">
         <!--HOME-->
         <main id="home">
             <!--HEADER-->
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top h-10 overflow-hidden">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand text-magento" href="#">
-                    <img src="assets/home/logo.png" alt="Logo" style="width:40px;">
+                    <img src="assets/home/logo.png" alt="Logo" style="width: 40px">
                     ROOTECH
                 </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <!-- Links -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span class="text-magento">Home</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">
-                            <span class="text-magento">Services</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link pointer" onclick="location.href='tuts/index.html'">
-                            <span class="text-magento">Tutorials</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutUs">
-                            <span class="text-magento">About Us</span>
-                        </a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="text-magento">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">
+                                <span class="text-magento">Services</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pointer" onclick="location.href='tuts/index.html'">
+                                <span class="text-magento">Tutorials</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutUs">
+                                <span class="text-magento">About Us</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
             </nav>
 
             <!--MIDDLE-->
@@ -464,26 +467,7 @@
                 </div>
             </div>
         </footer>
-    </div>
 
-    <!--Mobile-->
-    <div id="mobile">
-        <div class="pos-f-t ">
-            <nav class="navbar navbar-dark bg-dark">
-                <button class="navbar-toggler p-0" style="height: 100px; width: 100px" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-
-                    <img class="img-fluid" src="assets/home/menu.png">
-
-                </button>
-            </nav>
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                    <h4 class="text-white">Collapsed content</h4>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-        </div>
-    </div>
 
 </body>
 </html>

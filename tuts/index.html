@@ -12,37 +12,42 @@
 <body>
 
   <main style="background: #fff; overflow: auto" id="home">
-  <!--HEADER-->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top h-10 overflow-hidden">
-    <a class="navbar-brand text-magento" href="#">
-      <img src="../assets/home/logo.png" alt="Logo" style="width:40px;">
-      ROOTECH
-    </a>
+    <!--HEADER-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand text-magento" href="#">
+        <img src="../assets/home/logo.png" alt="Logo" style="width: 40px">
+        ROOTECH
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Links -->
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="../index.html#">
-          <span class="text-magento">Home</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../index.html#services">
-          <span class="text-magento">Services</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" onclick="location.href='#'">
-          <span class="text-magento">Tutorials</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../index.html#aboutUs">
-          <span class="text-magento">About Us</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#">
+              <span class="text-magento">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#services">
+              <span class="text-magento">Services</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pointer" onclick="location.href='#'">
+              <span class="text-magento">Tutorials</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#aboutUs">
+              <span class="text-magento">About Us</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
 
   <!--MIDDLE-->
   <section style="margin-top: 70px" class="h-80 text-light">
@@ -169,3 +174,13 @@
 
 </body>
 </html>
+
+<script src="../js/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="../js/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
