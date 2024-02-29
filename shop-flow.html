@@ -60,12 +60,20 @@
       background-size: cover;
     }
 
-    h2 {
+    #cover_page{
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background: url('assets/img/shopflow/shop_cover.jpg');
+    }
+
+    /* h2 {
       background-color: orangered !important;
       width: fit-content !important;
       color: white !important;
       padding: 10px !important;
-    }
+    } */
   </style>
 </head>
 
@@ -74,15 +82,14 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center">
-
-      <h1 class="logo me-auto"><a href="index.html">Shop FLow</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/shopflow/logo.png" alt="" class="img-fluid"></a>
+      <!-- <h1 class="logo mr-auto  "><a href="index.html">ROOTECH.INC</a></h1> -->
+      
 
       <nav id="navbar" class="navbar">
         <ul>
 
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="#getStarted">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -92,28 +99,92 @@
 
   <main id="main">
 
-
-
-    <section class="p-0">
-      <div class="containe-fluid p-0" id="landing">
-        <div class="w-100 h-100 border p-5 d-flex flex-wrap bg-trans-50 justify-content-end align-items-center">
-          <div class="card">
-            <div class="card-body p-5">
-              <h1 class="">Welcome to ShopFlow</h1>
-              <p class="lead">Your All-in-One Retail Management Solution</p>
-              <a class="getstarted scrollto" href="#about">Get Started</a>
+    <div id="" class="conrainer-fluid d-flex flex-wrap align-content-center bg-dark p-5" style="min-height: 70vh !important;">
+        <div class="row w-100">
+          <div class="col-sm-6 d-flex flex-wrap align-content-center">
+            <div>
+              <h2 style="color: #f17945;" class="display-1">SHOPFLOW.</h2>
+              <h2 class="text-light">TRANSFORM YOU RETAIL <br>OPERATIONS</h3>
+            </div>
+          </div>
+          <div class="col-sm-6 py-5">
+            <div class="w-100 h-100 d-flex justify-content-center align-content-center">
+              <img src="assets/img/shopflow/cash_counter.png" alt="cash counter" style="width: 400px;" class="img-fluid">
             </div>
           </div>
         </div>
+    </div>
+
+    <div class="container-fluid">
+      <div id="getStarted" class="row no-gutters">
+
+        <div style="background-color: #f27895;" class="col-sm-4 m-0 p-0 text-light">
+          <div class="w-100 p-1 text-center d-flex flex-wrap justify-content-center align-content-center" style="height: 250px;">
+            <img src="" alt="" class="img-fluid">
+            <h3 class="font-weight-bolder w-100">Inventory</h3>
+            <p>Track and manage stock level, recieve <br>low stock alert, and streamline <br>restocking process</p>
+          </div>
+        </div>
+
+        <div style="background-color: #ed5377;" class="col-sm-4 m-0 p-0 text-light">
+          <div class="w-100 p-1 text-center d-flex flex-wrap justify-content-center align-content-center" style="height: 250px;">
+            <img src="" alt="" class="img-fluid">
+            <h3 class="font-weight-bolder w-100">Sales</h3>
+            <p>
+              Efficiently process sales transactions, include <br>
+              item scanning, discount and multiple <br>payment methods.
+            </p>
+          </div>
+        </div>
+
+        <div style="background-color: #d71b5a;" class="col-sm-4 m-0 p-0 text-light">
+          <div class="w-100 p-1 text-center d-flex flex-wrap justify-content-center align-content-center" style="height: 250px;">
+            <img src="" alt="" class="img-fluid">
+            <h3 class="font-weight-bolder w-100">Loyalty</h3>
+            <p>
+              Implement and manage loyalty programs <br>to reward customers for repeat business <br>and encourage brand loyalty
+            </p>
+          </div>
+        </div>
+
+
+        
+
       </div>
 
+      
+    </div>
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <h3 style="color: #d71b5a;">Why work with us?</h3>
+          <ul>
+            <li>
+              24/7 Technical support with enhancement <br>
+              for industry-standard operations.
+            </li>
+            <li>
+              Affordable service with flexible subscription <br>
+              options for your business.
+            </li>
+            <li>
+              Customize existing and required features <br> to meet your unique operations.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="p-0">
+
       <div class="container">
-        <div class="row d-flex flex-wrap justify-content-center align-items-center">
+        <div class="row">
           <div class="col-sm-8">
-            <p>
+            <!-- <p>
               Welcome to ShopFlow, where seamless retail transactions become a reality with our advanced Point of Sale
               (POS) Terminal.
-            </p>
+            </p> -->
 
             <hr>
             <p>Seamless retail transactions become a reality with our advanced Point of Sale (POS) Terminal. Designed by
