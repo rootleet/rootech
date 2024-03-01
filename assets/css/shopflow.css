@@ -1,0 +1,249 @@
+
+.pricing{
+  margin:40px 0px;
+}
+.pricing .table{
+  border-top:1px solid #ddd;
+  background:#fff;
+}
+.pricing .table th,
+.pricing .table {
+  text-align: center;
+}
+.pricing .table th,
+.pricing .table td {
+  padding: 20px 10px;
+  border:1px solid #ddd;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.pricing .table th {
+  width: 25%;
+  font-size: 30px;
+  font-weight: 400;
+  border-bottom: 0;
+  background:#2F313A;
+  color: #EBEDF3;
+  text-transform: uppercase;
+}
+.pricing .table th.highlight{
+  border-top: 4px solid #4caf50 !important;
+}
+.pricing .table tr:nth-child(odd){
+  background: #f0f8ff;
+}
+.pricing .table td:first-child{
+  padding-left: 20px;
+  text-align: left;
+  padding-top:35px;
+  background: #5F97FB;
+}
+.pricing tr td .ptable-title {
+  font-size: 22px;
+  font-weight:400;
+  color: #fff;
+}
+.pricing tr td .ptable-title i {
+  width: 23px;
+  line-height: 25px;
+  text-align: right;
+  margin-right: 5px;
+}
+.pricing .ptable-star {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.pricing .ptable-star.red{
+  color: #e91e63;
+}
+.pricing .ptable-star.green{
+  color: #4caf50;
+}
+.pricing .ptable-star.lblue{
+  color: #03a9f4;
+}
+.pricing .ptable-star i {
+  width: 8px;
+  font-size: 13px;
+}
+.pricing .ptable-price {
+  display: block;
+}
+.pricing tr td {
+  font-size: 16px;
+  line-height:32px;
+  text-transform:uppercase;
+}
+.pricing tr td.bg-red{
+  background: #e91e63;
+}
+.pricing tr td.bg-green{
+  background: #4caf50;
+}
+.pricing tr td.bg-lblue{
+  background: #03a9f4;
+}
+.pricing tr td.bg-red a,
+.pricing tr td.bg-green a,
+.pricing tr td.bg-lblue a{
+  color: #fff;
+}
+.pricing tr td i {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+.pricing tr td i.red{
+  color: #e91e63;
+}
+.pricing tr td i.green{
+  color: #4caf50;
+}
+.pricing tr td i.lblue{
+  color: #03a9f4;
+}
+.pricing tr td:first-child i{
+  display:inline;
+  margin-bottom:0px;
+  font-size:22px;
+}
+
+
+
+
+.carousel {
+  margin: 50px auto;
+  padding: 0 70px;
+}
+.carousel .item {
+  color: #747d89;
+  min-height: 325px;
+  text-align: center;
+  overflow: hidden;
+}
+.carousel .thumb-wrapper {
+  padding: 25px 15px;
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.carousel .item .img-box {
+  height: 120px;
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+.carousel .item img { 
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.carousel .item h4 {
+  font-size: 18px;
+}
+.carousel .item h4, .carousel .item p, .carousel .item ul {
+  margin-bottom: 5px;
+}
+.carousel .thumb-content .btn {
+  color: #7ac400;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: none;
+  border: 1px solid #7ac400;
+  padding: 6px 14px;
+  margin-top: 5px;
+  line-height: 16px;
+  border-radius: 20px;
+}
+.carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+  color: #fff;
+  background: #7ac400;
+  box-shadow: none;
+}
+.carousel .thumb-content .btn i {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.carousel .item-price {
+  font-size: 13px;
+  padding: 2px 0;
+}
+.carousel .item-price strike {
+  opacity: 0.7;
+  margin-right: 5px;
+}
+.carousel-control-prev, .carousel-control-next {
+  height: 44px;
+  width: 40px;
+  background: #7ac400;  
+  margin: auto 0;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background: #78bf00;
+  opacity: 1;
+}
+.carousel-control-prev i, .carousel-control-next i {
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  margin: -19px 0 0 0;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-shadow: none;
+  font-weight: bold;
+}
+.carousel-control-prev i {
+  margin-left: -2px;
+}
+.carousel-control-next i {
+  margin-right: -4px;
+}   
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 50%;
+  border: none;
+}
+.carousel-indicators li { 
+  background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {  
+  background: rgba(0, 0, 0, 0.6);
+}
+.carousel .wish-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 16px;
+  color: #abb0b8;
+}
+.carousel .wish-icon .fa-heart {
+  color: #ff6161;
+}
+.star-rating li {
+  padding: 0;
+}
+.star-rating i {
+  font-size: 14px;
+  color: #ffc000;
+}

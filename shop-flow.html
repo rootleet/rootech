@@ -44,9 +44,18 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/shopflow.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script>
+$(document).ready(function(){
+  $(".wish-icon i").click(function(){
+    $(this).toggleClass("fa-heart fa-heart-o");
+  });
+}); 
+</script>
 
   <style>
     .bg-trans-50 {
@@ -157,6 +166,7 @@
 
     <div class="container">
       <div class="row mt-5">
+
         <div class="col-sm-6">
           <h3 style="color: #d71b5a;">Why work with us?</h3>
           <ul>
@@ -173,313 +183,303 @@
             </li>
           </ul>
         </div>
+
+        <div class="col-sm-6">
+            <h3 style="color: #d71b5a;">System Requirement</h3>
+            <p class="text-muted">All components can be found in our <a href="#prods">products</a> section with moderate pricing</p>
+            <table class="table table-sm table-stripped">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Specification</th>
+                  <th>Minimum Volume</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Processor</td>
+                  <td>i5</td>
+                </tr>
+                <tr>
+                  <td>RAM</td><td>8GB</td>
+                </tr>
+                <tr>
+                  <td>Storage</td><td>SSD 120GB</td>
+                </tr>
+                
+              </tbody>
+            </table>
+        </div>
+      </div>
+
+      
+
+
+    </div>
+
+    <div class="container mt-5">
+      <hr>
+      <h2 id="prods">Components for your requiremtn</h2>
+      <div class="row">
+       
+        <!-- MACHINE -->
+        <div class="col-sm-3">
+          <div class="card shadow-sm border-0">
+            <div class="card-body text-center">
+              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center" style="height: 200px">
+                <img class="img-fluid w-75" src="assets/img/shopflow/prod/POS.jpg">
+              </div>
+              <h4 class="text-muted">POS Machine</h4>
+              <p class="text-info">₵ 100.00</p>
+            </div>
+          </div>
+        </div>
+        <!-- BARCODE SCANNER -->
+        <div class="col-sm-3">
+          <div class="card shadow-sm border-0">
+            <div class="card-body text-center">
+              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center" style="height: 200px">
+                <img class="img-fluid w-75" src="assets/img/shopflow/prod/barcode.jpg">
+              </div>
+              <h4 class="text-muted">Barcode Scanner</h4>
+              <p class="text-info">₵ 100.00</p>
+            </div>
+          </div>
+        </div>
+        <!-- CASH DRAWSER -->
+        <div class="col-sm-3">
+          <div class="card shadow-sm border-0">
+            <div class="card-body text-center">
+              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center" style="height: 200px">
+                <img class="img-fluid w-75" src="assets/img/shopflow/prod/cash.jpeg">
+              </div>
+              <h4 class="text-muted">Cash Drawer</h4>
+              <p class="text-info">₵ 100.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card shadow-sm border-0">
+            <div class="card-body text-center">
+              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center" style="height: 200px">
+                <img class="img-fluid w-75" src="assets/img/shopflow/prod/epson.png">
+              </div>
+              <h4 class="text-muted">Terminal Printer</h4>
+              <p class="text-info">₵ 100.00</p>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
 
     <section class="p-0">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8">
-            <!-- <p>
-              Welcome to ShopFlow, where seamless retail transactions become a reality with our advanced Point of Sale
-              (POS) Terminal.
-            </p> -->
-
-            <hr>
-            <p>Seamless retail transactions become a reality with our advanced Point of Sale (POS) Terminal. Designed by
-              RooTech Inc for businesses of all sizes, ShopFlow POS Terminal is your key to efficient and effective
-              sales management.</p>
-
-            <h3>Key Features:</h3>
-            <ol>
-              <li><strong>Effortless Transactions:</strong> ShopFlow POS Terminal ensures swift and error-free
-                transactions, allowing your staff to focus on providing excellent customer service.</li>
-              <li><strong>Intuitive User Interface:</strong> Our user-friendly interface makes it easy for your team to
-                navigate through the system, reducing training time and enhancing productivity.</li>
-              <li><strong>Customizable for Your Business:</strong> Tailor the POS Terminal to your business needs. From
-                product categories to pricing structures, ShopFlow adapts to fit your unique requirements.</li>
-              <li><strong>Secure Payment Processing:</strong> Trust in the security of every transaction. ShopFlow
-                employs robust security measures to protect both your business and your customers' sensitive data.</li>
-              <li><strong>Real-time Inventory Integration:</strong> Enjoy real-time synchronization between the POS
-                Terminal and your inventory. Know your stock levels at all times and prevent overselling.</li>
-            </ol>
-
-            <h3>Benefits for Your Business:</h3>
-            <ul>
-              <li><strong>Increased Efficiency:</strong> Accelerate the checkout process, reducing wait times and
-                enhancing the overall customer experience.</li>
-              <li><strong>Accurate Sales Reporting:</strong> ShopFlow POS Terminal provides detailed sales reports,
-                enabling you to make data-driven decisions for your business.</li>
-              <li><strong>Shift Management:</strong> Efficiently manage multiple shifts in a day, ensuring accurate
-                accounting and control over cashier activities.</li>
-              <li><strong>Adaptable to Your Industry:</strong> Whether you're in retail, hospitality, or service,
-                ShopFlow POS Terminal is customizable to meet the specific needs of your industry.</li>
-            </ul>
-
-
-
-
-            <hr>
-            <h1>Optimize Your Business with ShopFlow Inventory Management</h1>
-            <p>Efficiently manage and control your inventory with ShopFlow's advanced Inventory Management system.
-              Designed by RooTech Inc, ShopFlow offers a comprehensive solution to streamline your business operations
-              and enhance overall productivity.</p>
-
-            <h2>Key Features:</h2>
-            <ol>
-              <li><strong>Real-time Inventory Tracking:</strong> Stay informed about your inventory levels in real-time.
-                ShopFlow ensures accurate and up-to-date information to prevent stockouts or overstock situations.</li>
-              <li><strong>Product Categorization:</strong> Organize your products seamlessly with customizable
-                categories. Whether you have a diverse product range or a specialized niche, ShopFlow adapts to fit your
-                unique needs.</li>
-              <li><strong>Order Management:</strong> Streamline your order processes with ShopFlow. From purchase orders
-                to order fulfillment, our Inventory Management system simplifies the entire order lifecycle.</li>
-              <li><strong>Barcode Scanning:</strong> Enhance accuracy and speed up inventory tasks with barcode scanning
-                capabilities. ShopFlow makes it easy to add, update, and track products using barcode technology.</li>
-              <li><strong>Supplier Integration:</strong> Collaborate seamlessly with your suppliers. ShopFlow allows you
-                to integrate supplier information, track deliveries, and maintain strong relationships with your
-                vendors.</li>
-            </ol>
-
-            <h3>Benefits for Your Business:</h2>
-              <ul>
-                <li><strong>Optimized Stock Levels:</strong> Prevent overstock and stockouts by maintaining optimal
-                  inventory levels based on real-time data.</li>
-                <li><strong>Time and Cost Efficiency:</strong> Automate manual inventory tasks, saving time and reducing
-                  operational costs. Focus on strategic business decisions rather than manual counting.</li>
-                <li><strong>Enhanced Order Fulfillment:</strong> Speed up the order fulfillment process with accurate
-                  inventory data, leading to improved customer satisfaction and loyalty.</li>
-                <li><strong>Data-Driven Decision Making:</strong> Leverage detailed inventory reports to make informed
-                  decisions about purchasing, pricing, and product management.</li>
-              </ul>
-
-              <hr>
-              <h2>Empower Your Business with ShopFlow Customer Management</h2>
-              <p>Discover the power of ShopFlow's Customer Management system, tailored to enhance your business's cash
-                and credit purchasing processes. RooTech Inc brings you a comprehensive solution to efficiently manage
-                customer transactions, whether in cash or through credit.</p>
-
-              <h3>Key Features:</h3>
-              <ol>
-                <li><strong>Customer Profiles:</strong> Create detailed customer profiles with ShopFlow, capturing
-                  essential information for both cash and credit customers. Keep track of purchase history, preferences,
-                  and contact details.</li>
-                <li><strong>Credit Limits and Terms:</strong> Customize credit limits and terms for credit customers,
-                  ensuring transparent and manageable credit transactions. ShopFlow provides flexibility to adapt to
-                  your business's credit policies.</li>
-                <li><strong>Transaction History:</strong> Access comprehensive transaction histories for each customer.
-                  Whether it's a cash sale or a credit purchase, ShopFlow keeps a detailed record of every transaction
-                  for future reference.</li>
-                <li><strong>Payment Tracking:</strong> Easily track payments, whether received in cash or through
-                  credit. ShopFlow provides clarity on outstanding balances, helping you manage credit accounts
-                  effectively.</li>
-                <li><strong>Alerts and Notifications:</strong> Set up alerts for approaching credit limits or overdue
-                  payments. ShopFlow keeps you informed, allowing proactive management of credit accounts and
-                  maintaining healthy customer relationships.</li>
-              </ol>
-
-              <h3>Benefits for Your Business:</h3>
-              <ul>
-                <li><strong>Improved Customer Relationships:</strong> Build stronger relationships with your customers
-                  by understanding their preferences and providing personalized services, whether they pay in cash or
-                  credit.</li>
-                <li><strong>Streamlined Credit Processes:</strong> Manage credit transactions efficiently with
-                  ShopFlow's customizable credit limits and terms. Reduce the risk of credit defaults through proactive
-                  monitoring.</li>
-                <li><strong>Enhanced Financial Control:</strong> Gain better control over your business's financial
-                  health with clear insights into cash and credit transactions. ShopFlow's reporting capabilities
-                  empower you to make informed financial decisions.</li>
-                <li><strong>Time and Resource Savings:</strong> Automate customer management tasks, saving time and
-                  resources. Focus on delivering exceptional service while ShopFlow takes care of transaction details.
-                </li>
-              </ul>
-
-              <hr>
-              <h2>Unlock Business Insights with ShopFlow Reporting and Analytics</h2>
-              <p>Empower your decision-making process with ShopFlow's robust Reporting and Analytics capabilities.
-                RooTech Inc introduces a comprehensive solution designed to provide real-time insights and in-depth
-                analytics, allowing you to make informed decisions that drive your business forward.</p>
-
-              <h3>Key Features:</h3>
-              <ol>
-                <li><strong>Live Sales Reports:</strong> Monitor sales performance in real time with ShopFlow's Live
-                  Sales Reports. Track trends, identify top-selling products, and assess the effectiveness of promotions
-                  on the fly.</li>
-                <li><strong>ZReports:</strong> End your day with clarity. ZReports in ShopFlow provide a snapshot of
-                  your business's financials, summarizing sales, transactions, and other critical data for a specific
-                  time period.</li>
-                <li><strong>End-of-Day (EOD) Reports:</strong> Get a comprehensive view of daily operations with EOD
-                  Reports. Analyze sales, inventory levels, and customer transactions to evaluate the overall
-                  performance of your business.</li>
-                <li><strong>Item Availability Reports:</strong> Stay ahead of inventory needs. ShopFlow's Item
-                  Availability Reports help you manage stock levels effectively, ensuring products are available when
-                  and where they are needed.</li>
-                <li><strong>Daily Sales Analysis:</strong> Dive deeper into your daily sales data with ShopFlow's Daily
-                  Sales Analysis. Identify peak sales hours, popular products, and customer buying patterns to optimize
-                  your business strategy.</li>
-              </ol>
-
-              <h3>Benefits for Your Business:</h3>
-              <ul>
-                <li><strong>Real-Time Decision Making:</strong> Stay agile with real-time insights. ShopFlow's live
-                  reports empower you to make on-the-spot decisions that positively impact your business.</li>
-                <li><strong>Financial Visibility:</strong> Achieve a clear understanding of your business's financial
-                  health with ZReports and EOD Reports. Monitor revenue, expenses, and profitability effortlessly.</li>
-                <li><strong>Optimized Inventory Management:</strong> Leverage Item Availability Reports to maintain
-                  optimal stock levels, reducing the risk of stockouts and overstock situations.</li>
-                <li><strong>Strategic Planning:</strong> Use Daily Sales Analysis to inform your strategic planning.
-                  Identify trends and opportunities to refine your business strategy and enhance overall performance.
-                </li>
-              </ul>
-
-              <hr>
-              <h2>Elevate Customer Loyalty with ShopFlow</h2>
-              <p>Introducing ShopFlow's Loyalty Program, a powerful tool designed to strengthen your connection with
-                customers and enhance their shopping experience. RooTech Inc brings you a comprehensive solution that
-                goes beyond transactions, fostering loyalty and repeat business.</p>
-
-              <h3>Key Features:</h3>
-              <ul>
-                <li><strong>Points Accumulation:</strong> Reward your customers for every purchase. ShopFlow's Loyalty
-                  Program allows customers to accumulate points based on their spending, encouraging repeat visits.</li>
-                <li><strong>Customizable Rewards:</strong> Tailor rewards to match your business and customer
-                  preferences. Whether it's discounts, free products, or exclusive access, ShopFlow lets you create
-                  enticing incentives.</li>
-                <li><strong>Membership Tiers:</strong> Establish loyalty tiers to recognize and reward your most
-                  dedicated customers. Encourage customers to climb tiers by offering increasingly attractive benefits.
-                </li>
-                <li><strong>Automated Tracking:</strong> Effortlessly track and manage loyalty program activities.
-                  ShopFlow automates the process, ensuring a seamless experience for both customers and business owners.
-                </li>
-                <li><strong>Personalized Promotions:</strong> Leverage customer data to create personalized promotions.
-                  ShopFlow's Loyalty Program enables targeted offers, increasing the relevance and effectiveness of your
-                  marketing efforts.</li>
-              </ul>
-
-              <h3>Benefits for Your Business:</h3>
-              <ul>
-                <li><strong>Increased Customer Retention:</strong> Build lasting relationships with customers through a
-                  rewarding loyalty program. Encourage them to choose your business over competitors.</li>
-                <li><strong>Boosted Sales:</strong> Drive sales and revenue by incentivizing customers to make repeat
-                  purchases. The Loyalty Program encourages loyalty and contributes to a consistent revenue stream.</li>
-                <li><strong>Data-Driven Marketing:</strong> Utilize customer data gathered through the Loyalty Program
-                  for targeted marketing campaigns. Send personalized promotions that resonate with individual
-                  preferences.</li>
-                <li><strong>Enhanced Customer Experience:</strong> Elevate the overall shopping experience. The Loyalty
-                  Program adds an extra layer of value, making customers feel appreciated and valued.</li>
-              </ul>
-
-              <hr>
-              <h2>Seamless EVAT Integration with ShopFlow</h2>
-              <p>Experience the efficiency of ShopFlow's EVAT Integration, a feature designed to simplify your
-                business's compliance with Electronic Value-Added Tax (EVAT) regulations. RooTech Inc introduces a
-                seamless solution that streamlines the integration of EVAT into your daily operations, ensuring accurate
-                and effortless tax management.</p>
-
-              <h3>Key Features:</h3>
-              <ul>
-                <li><strong>Automated Tax Calculation:</strong> ShopFlow's EVAT Integration automates the tax
-                  calculation process, eliminating the need for manual computation. Ensure accurate tax amounts on every
-                  transaction effortlessly.</li>
-                <li><strong>Real-time Tax Reporting:</strong> Stay compliant with tax regulations by generating
-                  real-time tax reports. ShopFlow provides comprehensive reports that detail your business's tax
-                  obligations, making it easy to fulfill requirements.</li>
-                <li><strong>Invoice Customization:</strong> Customize your invoices to include all necessary
-                  EVAT-related information. ShopFlow allows you to tailor your invoices to meet regulatory standards and
-                  provide transparency to your customers.</li>
-                <li><strong>Integration Flexibility:</strong> ShopFlow's EVAT Integration is flexible and adapts to your
-                  business needs. Easily configure tax settings and rules based on your specific industry and local tax
-                  regulations.</li>
-                <li><strong>Secure Tax Record Keeping:</strong> Ensure secure and organized tax record-keeping.
-                  ShopFlow's EVAT Integration maintains a detailed record of all tax-related transactions, facilitating
-                  easy retrieval and audit preparation.</li>
-              </ul>
-
-              <h3>Benefits for Your Business:</h3>
-              <ul>
-                <li><strong>Time and Resource Savings:</strong> Automate tax-related tasks, saving time and resources.
-                  ShopFlow's EVAT Integration minimizes the manual effort required for tax compliance, allowing you to
-                  focus on core business activities.</li>
-                <li><strong>Reduced Errors:</strong> Mitigate the risk of tax calculation errors. ShopFlow's automated
-                  system ensures accurate tax amounts, reducing the likelihood of discrepancies and potential penalties.
-                </li>
-                <li><strong>Enhanced Compliance:</strong> Stay compliant with EVAT regulations effortlessly. ShopFlow's
-                  real-time reporting and customizable invoices help you fulfill tax obligations without unnecessary
-                  complications.</li>
-                <li><strong>Improved Financial Visibility:</strong> Gain a clear view of your business's tax obligations
-                  and liabilities. ShopFlow's EVAT Integration enhances financial visibility, allowing for better
-                  financial planning and decision-making.</li>
-              </ul>
-
-              <h2>Why Choose ShopFlow POS Terminal?</h2>
-              <p>ShopFlow goes beyond a traditional POS system, offering a comprehensive solution that integrates
-                seamlessly into your business operations. Experience the power of efficient sales management with
-                ShopFlow's POS Terminal.</p>
-              <p>Ready to elevate your retail experience? <a href="#your-shopflow-link">Explore ShopFlow</a> today and
-                discover the difference a sophisticated POS Terminal can make for your business.</p>
-
-
-
+        
+      <div class="pricing">
+        <div class="container mt-5">
+          <hr>
+          <div class="pricing-table table-responsive">
+            <table class="table">
+              <!-- Heading -->
+              <thead>
+                <tr>
+                  <th>Deployment <br>Subscription</th>
+                  <th>
+                    Basic
+                    <span class="ptable-star red">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                    </span>
+                    <span>₵ 2,499.00</span>
+                    <small class="ptable-price">₵0.0 / Mth</small>
+                  </th>
+                  <th class="highlight">
+                    Economic
+                    <span class="ptable-star green">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </span>
+                    <span>₵ 2,499.00</span>
+                    <small class="ptable-price">₵199.00 / Mth</small>
+                  </th>
+                  <th>
+                    Premium
+                    <span class="ptable-star lblue">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                    <span>₵ 2,499.00</span>
+                    <small class="ptable-price">₵499.0 / Mth</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- POS MACHINE -->
+                <tr>
+                  <td><span class="ptable-title"><i class=""></i> Deployment</span></td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                    
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                </tr>
+                <!-- BARCODE SCANNER -->
+                <tr>
+                  <td><span class="ptable-title"><i class=""></i> Training</span></td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                    
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                </tr>
+                <!-- CASH DRAWER -->
+                <tr>
+                  <td><span class="ptable-title"><i class=""></i> Updates</span></td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa  fa-square-o red"></i>
+                    
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td><span class="ptable-title"><i class=""></i> Support</span></td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa  fa-square-o red"></i>
+                    
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                </tr>
+                <!-- CASH PRINTER -->
+                <tr>
+                  <td><span class="ptable-title">Free Custom Requirement</span></td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa  fa-square-o red"></i>
+                    
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    
+                    <i class="fa  fa-square-o red"></i>
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                </tr>
+                <!-- Technical Suport -->
+                <tr>
+                  <td><span class="ptable-title"><i class=""></i> IT Support</span></td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa  fa-square-o red"></i>
+                    
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    
+                    <i class="fa  fa-square-o red"></i>
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                </tr>
+                <!-- DB BACKUP -->
+                <tr>
+                  <td><span class="ptable-title">Database Management</span></td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa  fa-square-o red"></i>
+                    
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    
+                    <i class="fa  fa-square-o red"></i>
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td><span class="ptable-title">Database Backup</span></td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa  fa-square-o red"></i>
+                    
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    
+                    <i class="fa  fa-square-o red"></i>
+                  </td>
+                  <td>
+                    <!-- Icon -->
+                    <i class="fa fa-check-square green"></i>
+                  </td>
+                </tr>
+                
+                <!-- Buttons -->
+                <!-- <tr>
+                  <td>&nbsp;</td>
+                  <td class="bg-red"><a class="btn" href="#">Sign Up</a></td>
+                  <td class="bg-green"><a class="btn" href="#">Sign Up</a></td>
+                  <td class="bg-lblue"><a class="btn" href="#">Sign Up</a></td>
+                </tr> -->
+              </tbody>
+            </table>
           </div>
         </div>
-        <hr>
+      </div>
 
-        <h2>Pricing</h2>
-        <div class="row">
 
-          <!-- One Time Option -->
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">One Time</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Contact for Pricing</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>One-time deployment</li>
-                  <li>No ongoing support</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Contact Us</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Monthly Option -->
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Monthly</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$49.99<small class="text-muted">/month</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Deployment and subscription</li>
-                  <li>Monthly payment based on requirements</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Select Plan</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Customize Option -->
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Customize</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Contact for Pricing</h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Customized based on client needs</li>
-                  <li>Flexible pricing options</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Contact Us</button>
-              </div>
-            </div>
-          </div>
-
-        </div>
 
       </div>
     </section>
