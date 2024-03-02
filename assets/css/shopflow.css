@@ -247,3 +247,26 @@
   font-size: 14px;
   color: #ffc000;
 }
+
+/* Default styles for both elements */
+#mob_price {
+  display: block; /* or any other default display property */
+}
+
+#desk_price {
+  display: block; /* or any other default display property */
+}
+
+/* Hide mob_price on desktop devices (screen width 769px and above) */
+@media only screen and (min-width: 769px) {
+  #mob_price {
+    display: none;
+  }
+}
+
+/* Hide desk_price on mobile devices (screen width 768px and below) */
+@media only screen and (max-width: 768px) {
+  #desk_price {
+    display: none;
+  }
+}

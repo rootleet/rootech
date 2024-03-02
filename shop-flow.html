@@ -23,7 +23,7 @@
   <meta property="og:image"
     content="https://raw.githubusercontent.com/rootleet/rootech/master/assets/shopflow/shopflow.jpg">
   <!-- Replace with an actual image URL -->
-  
+
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@yourtwitterhandle">
@@ -78,7 +78,7 @@
       background-size: cover;
     }
 
-    a{
+    a {
       text-decoration: none !important;
       color: inherit !important;
     }
@@ -128,7 +128,7 @@
 
   <main id="main">
 
-    <div id="cover" class="conrainer-fluid d-flex flex-wrap align-content-center bg-dark p-5"
+    <div id="cover" class="conrainer-fluid mt-5 d-flex flex-wrap align-content-center bg-dark p-5"
       style="min-height: 70vh !important;">
       <div class="row w-100">
         <div class="col-sm-6 d-flex flex-wrap align-content-center">
@@ -149,19 +149,20 @@
       <div class="container py-5">
         <div class="row">
           <!-- Phone column -->
-          <div class="col-md-4 d-flex flex-wrap">
+          <div class="col-md-4 p-4 d-flex flex-wrap">
             <i class="fa fa-phone footer-icon"></i>
-            <span><a href="tel:+233 54 631 0011">+233 54 631 0011</a> <br><a href="tel:+233 55 567 6115">+233 55 567 6115</a></span>
+            <span><a href="tel:+233 54 631 0011">+233 54 631 0011</a> <br><a href="tel:+233 55 567 6115">+233 55 567
+                6115</a></span>
           </div>
 
           <!-- Email column -->
-          <div class="col-md-4 d-flex flex-wrap">
+          <div class="col-md-4 p-4 d-flex flex-wrap">
             <i class="fa fa-envelope footer-icon"></i>
             <span><a href="mailto:rootech.inc@proton.me">rootech.inc@proton.me</a></span>
           </div>
 
           <!-- Address column -->
-          <div class="col-md-4 d-flex flex-wrap">
+          <div class="col-md-4 p-4 d-flex flex-wrap">
             <i class="fa fa-map footer-icon"></i>
             <span>Adenta, Japan Motors <br>Room 6</span>
           </div>
@@ -307,20 +308,19 @@
 
     </div>
 
-    <div class="container mt-5">
-      <hr>
-      <h2 id="prods">Components for your requiremtn</h2>
-      <div class="row">
+    <div style="min-height: 100vh; overflow: auto;" class="container d-flex flex-wrap align-content-center mt-5">
+      
+      <div class="row" style="height: fit-content;">
 
         <!-- MACHINE -->
         <div class="col-sm-3">
           <div class="card shadow-sm border-0">
             <div class="card-body text-center">
               <div class="w-100 d-flex flex-wrap justify-content-center align-content-center" style="height: 200px">
-                <img class="img-fluid w-75" src="assets/img/shopflow/prod/POS.jpg">
+                <img class="img-fluid w-75 card-img" src="assets/img/shopflow/prod/POS.jpg">
               </div>
               <h4 class="text-muted">POS Machine</h4>
-              <p class="text-info">₵ 100.00</p>
+              <p class="text-info">₵5,499.00</p>
             </div>
           </div>
         </div>
@@ -328,11 +328,11 @@
         <div class="col-sm-3">
           <div class="card shadow-sm border-0">
             <div class="card-body text-center">
-              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center" style="height: 200px">
-                <img class="img-fluid w-75" src="assets/img/shopflow/prod/barcode.jpg">
+              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center">
+                <img class="img-fluid w-75 card-img" src="assets/img/shopflow/prod/barcode.jpg">
               </div>
               <h4 class="text-muted">Barcode Scanner</h4>
-              <p class="text-info">₵ 100.00</p>
+              <p class="text-info">₵249.00</p>
             </div>
           </div>
         </div>
@@ -340,22 +340,22 @@
         <div class="col-sm-3">
           <div class="card shadow-sm border-0">
             <div class="card-body text-center">
-              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center" style="height: 200px">
-                <img class="img-fluid w-75" src="assets/img/shopflow/prod/cash.jpeg">
+              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center">
+                <img class="img-fluid w-75 card-img" src="assets/img/shopflow/prod/cash.jpeg">
               </div>
               <h4 class="text-muted">Cash Drawer</h4>
-              <p class="text-info">₵ 100.00</p>
+              <p class="text-info">₵499.00</p>
             </div>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="card shadow-sm border-0">
             <div class="card-body text-center">
-              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center" style="height: 200px">
-                <img class="img-fluid w-75" src="assets/img/shopflow/prod/epson.png">
+              <div class="w-100 d-flex flex-wrap justify-content-center align-content-center">
+                <img class="img-fluid w-75 card-img" src="assets/img/shopflow/prod/epson.jpg">
               </div>
               <h4 class="text-muted">Terminal Printer</h4>
-              <p class="text-info">₵ 100.00</p>
+              <p class="text-info">₵2,399.00</p>
             </div>
           </div>
         </div>
@@ -368,8 +368,17 @@
 
       <div class="pricing">
         <div class="container mt-5">
+          <h2>Pricing</h2>
+          <h3>Important Pricing Information for Shopflow Users
+          </h3>
+          <p>
+            Our prices focus solely on delivering quality software. Please be aware that the listed prices do
+            not cover the cost of devices or equipment. We believe in giving you the freedom to choose what suits you
+            best. Need assistance? Our <a href="#prods">team</a> is here to help.
+          </p>
+          <img id="mob_price" src="assets/shopflow/shopflow-pricing.png" alt="" class="img-fluid">
           <hr>
-          <div class="pricing-table table-responsive">
+          <div id="desk_price" class="pricing-table table-responsive">
             <table class="table">
               <!-- Heading -->
               <thead>
