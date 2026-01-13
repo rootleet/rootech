@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block access to system and sensitive folders
+Disallow: /venv/
+Disallow: /node_modules/
+Disallow: /private/
+Disallow: /config/
+
+# Point to your Sitemap (Optional, but recommended)
+Sitemap: https://rootechits.com/sitemap.xml
