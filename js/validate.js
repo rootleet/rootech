@@ -36,7 +36,7 @@
 
       console.table(payload)
       thisForm.querySelector('.loading').classList.add('d-block');
-      fetch('http://127.0.0.1:8000/crm/api/', {
+      fetch('https://ocean.rootechits.com/crm/api/', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
