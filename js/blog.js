@@ -667,6 +667,16 @@ class Blog {
 
             $('meta[name="description"]').attr('content', post.intro);
             $('meta[name="keywords"]').attr('content', post.meta.split(',').join(', '));
+
+
+            $('meta[property="og:title"]').attr('content', post.title);
+          $('meta[property="og:description"]').attr('content', post.intro);
+          $('meta[property="og:image"]').attr('content', this.end_base + post.image);
+          $('meta[property="og:url"]').attr('content', window.location.href);
+
+          $('meta[name="twitter:title"]').attr('content', post.title);
+          $('meta[name="twitter:description"]').attr('content', post.intro);
+          $('meta[name="twitter:image"]').attr('content', this.end_base + post.image);
             return post;
         } else {
             console.error('Failed to retrieve blog post:', response.message);
