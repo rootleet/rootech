@@ -586,8 +586,8 @@ function populateContent(post) {
 }
 
 class Blog {
-  endpoint = 'http://localhost:8005/blog/api/';
-  end_base = 'http://localhost:8005'
+  endpoint = 'https://ocean.rootechits.com/blog/api/';
+  end_base = 'https://ocean.rootechits.com'
 
   async fetchAllPosts(limit = 6) {
 
