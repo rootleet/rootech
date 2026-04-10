@@ -621,7 +621,7 @@ class Blog {
                                 <span class="post-date">${post.date_created}</span>
                             </div>
                             </div>
-                            <a href="blog.html?uni=${post.uni}" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                            <a href="blog.php?uni=${post.uni}" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                         </div>
                     </div>

@@ -677,7 +677,7 @@
                     <span class="post-date">March 15, 2024</span>
                   </div>
                 </div>
-                <a href="blog.html?uni=1" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="blog.php?uni=1" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -698,7 +698,7 @@
                     <span class="post-date">February 28, 2024</span>
                   </div>
                 </div>
-                <a href="blog.html?uni=2" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="blog.php?uni=2" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -719,7 +719,7 @@
                     <span class="post-date">February 10, 2024</span>
                   </div>
                 </div>
-                <a href="blog.html?uni=3" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="blog.php?uni=3" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -740,7 +740,7 @@
                     <span class="post-date">January 25, 2024</span>
                   </div>
                 </div>
-                <a href="blog.html?uni=4" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="blog.php?uni=4" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -761,7 +761,7 @@
                     <span class="post-date">January 12, 2024</span>
                   </div>
                 </div>
-                <a href="blog.html?uni=5" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="blog.php?uni=5" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -782,7 +782,7 @@
                     <span class="post-date">December 30, 2023</span>
                   </div>
                 </div>
-                <a href="blog.html?uni=6" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+<a href="blog.php?uni=6" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
