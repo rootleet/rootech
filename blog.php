@@ -167,17 +167,17 @@ if ($post) {
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
         <span class="sitename">RITS</span><span>.</span>
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#ventures">Ventures</a></li>
-          <li><a href="index.html#team">Team</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.php#hero">Home</a></li>
+          <li><a href="index.php#about">About</a></li>
+          <li><a href="index.php#services">Services</a></li>
+          <li><a href="index.php#ventures">Ventures</a></li>
+          <li><a href="index.php#team">Team</a></li>
+          <li><a href="index.php#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -194,7 +194,7 @@ if ($post) {
         <i class="bi bi-exclamation-circle" style="font-size:4rem; color:#6c757d;"></i>
         <h2 class="mt-4">Oops, something went wrong</h2>
         <p class="text-muted mt-2" style="max-width:480px; margin:0 auto;"><?= h($errorMessage) ?></p>
-        <a href="index.html" class="btn btn-primary mt-4">Back to Home</a>
+        <a href="index.php" class="btn btn-primary mt-4">Back to Home</a>
       </div>
     </section>
 
@@ -320,7 +320,7 @@ if ($post) {
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="index.php" class="logo d-flex align-items-center">
             <span class="sitename">RITS</span>
           </a>
           <p>Empowering your business with innovative digital solutions, robust cybersecurity, and transformative technology—engineered for growth in a connected world.</p>
@@ -334,19 +334,19 @@ if ($post) {
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About us</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php#about">About us</a></li>
+            <li><a href="index.php#services">Services</a></li>
+            <li><a href="index.php#contact">Contact</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="index.html#services">Web Design</a></li>
-            <li><a href="index.html#services">Web Development</a></li>
-            <li><a href="index.html#services">IT Consulting</a></li>
-            <li><a href="index.html#services">Digital Marketing</a></li>
+            <li><a href="index.php#services">Web Design</a></li>
+            <li><a href="index.php#services">Web Development</a></li>
+            <li><a href="index.php#services">IT Consulting</a></li>
+            <li><a href="index.php#services">Digital Marketing</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
