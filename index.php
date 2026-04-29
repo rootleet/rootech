@@ -57,11 +57,7 @@
   <!-- End Google Tag Manager -->
 
   <style>
-    img{
-    width: 100% !important;
-    height: auto !important;
-
-    }
+    
   </style>
 
 </head>
