@@ -1,11 +1,18 @@
 User-agent: *
 Allow: /
-
-# Block access to system and sensitive folders
 Disallow: /venv/
 Disallow: /node_modules/
 Disallow: /private/
 Disallow: /config/
 
-# Point to your Sitemap (Optional, but recommended)
+# AI Crawler Directives
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://rootechits.com/sitemap.xml

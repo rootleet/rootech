@@ -5,27 +5,79 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Rootech IT Solutions | Managed IT & Software Engineering</title>
+  <title>Rootech IT Solutions | Software Engineering & Managed IT Services</title>
   <meta name="description"
-    content="Rootech IT Solutions: Ghana's leading software house. Creator of Venta POS, OCEAN ERP, and biometric systems. Engineering secure, scalable tech for your business.">
+    content="Rootech IT Solutions (RITS) is Ghana's premier software engineering house. We build secure, scalable retail ecosystems like Venta POS, enterprise OCEAN ERP, and biometric attendance systems. Engineering the future of African business.">
   <meta name="keywords"
-    content="IT company Ghana, IT services Ghana, Rootech IT Solutions, software development, managed IT services, IT consulting, cloud solutions, cybersecurity Ghana, network infrastructure, business IT support, technology solutions Ghana, IT support Ghana, ICT services Ghana, tech company Ghana">
+    content="IT company Ghana, software engineering Ghana, Rootech IT Solutions, Venta POS, OCEAN ERP, biometric systems Ghana, cloud architecture Africa, digital transformation, managed IT services Accra, software development West Africa">
 
-  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://rootechits.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rootechits.com/">
-  <meta property="og:title" content="Rootech IT Solutions | Managed IT & Software Engineering">
+  <meta property="og:title" content="Rootech IT Solutions | Leading Software House in Ghana">
   <meta property="og:description"
-    content="Ghana's leading IT powerhouse. Creators of Venta ECO and OCEAN ERP. We provide secure cloud infrastructure and custom software engineering.">
+    content="Creators of Venta ECO and OCEAN ERP. We provide elite software engineering and secure cloud infrastructure for modern enterprises.">
   <meta property="og:image" content="https://rootechits.com/assets/img/social_tag.jpg">
 
+  <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://rootechits.com/">
-  <meta property="twitter:title" content="Rootech IT Solutions | Managed IT & Software Engineering">
+  <meta property="twitter:title" content="Rootech IT Solutions | Engineering the Future of African Business">
   <meta property="twitter:description"
-    content="Engineering the future of business with secure retail ecosystems and enterprise ERP solutions.">
+    content="Secure retail ecosystems, enterprise ERP solutions, and custom software engineering from Ghana's leading IT powerhouse.">
   <meta property="twitter:image" content="https://rootechits.com/assets/img/social_tag.jpg">
+
+  <!-- Structured Data (JSON-LD) for AI & SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rootech IT Solutions",
+    "alternateName": "RITS",
+    "url": "https://rootechits.com/",
+    "logo": "https://rootechits.com/assets/img/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/rootechits",
+      "https://www.linkedin.com/company/rootechits",
+      "https://twitter.com/rootechits"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+233-000-000-000",
+      "contactType": "customer service",
+      "areaServed": "GH",
+      "availableLanguage": "en"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Venta POS",
+    "operatingSystem": "Windows, Linux, Android",
+    "applicationCategory": "BusinessApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "GHS"
+    },
+    "description": "An offline-first retail billing system designed for African businesses to ensure 24/7 uptime."
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "OCEAN ERP",
+    "operatingSystem": "Web-based",
+    "applicationCategory": "ERP",
+    "description": "A comprehensive enterprise resource planning system for organizational management."
+  }
+  </script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -143,7 +195,7 @@
             <div class="hero-visual">
               <div class="product-mockup">
                 <div class="mockup-frame">
-                  <img src="assets/img/misc-17.webp" alt="Product Dashboard" class="img-fluid">
+                  <img src="assets/img/misc-17.webp" alt="Rootech IT Solutions Venta POS and ERP Software Dashboard Analytics" class="img-fluid" fetchpriority="high">
                 </div>
                 <div class="floating-card card-1" data-aos="fade-up" data-aos-delay="400">
                   <div class="card-icon">
@@ -252,10 +304,10 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="image-stack">
               <div class="image-card image-primary">
-                <img src="assets/img/about-7.webp" alt="Team collaboration" class="img-fluid">
+                <img src="assets/img/about-7.webp" alt="Rootech IT Solutions software engineering team collaborating on African business digital transformation" class="img-fluid" loading="lazy">
               </div>
               <div class="image-card image-secondary">
-                <img src="assets/img/about-square-5.webp" alt="Digital workspace" class="img-fluid">
+                <img src="assets/img/about-square-5.webp" alt="Modern digital workspace for software development and IT consultancy in Ghana" class="img-fluid" loading="lazy">
               </div>
               <div class="floating-badge">
                 <div class="badge-icon">
@@ -669,7 +721,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="blog-card">
               <div class="card-img">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="The Future of Retail Technology in Africa" class="img-fluid">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="The Future of Retail Technology and POS Systems in Africa - Rootech Blog" class="img-fluid" loading="lazy">
               </div>
               <div class="card-body">
                 <h5 class="card-title">The Future of Retail Technology in Africa</h5>
@@ -690,7 +742,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="blog-card">
               <div class="card-img">
-                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="How to Secure Your Business Data" class="img-fluid">
+                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cybersecurity and Data Protection for Businesses in Ghana - Rootech Insights" class="img-fluid" loading="lazy">
               </div>
               <div class="card-body">
                 <h5 class="card-title">How to Secure Your Business Data</h5>
@@ -711,7 +763,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="blog-card">
               <div class="card-img">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Building Scalable Web Applications" class="img-fluid">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Building Scalable Web Applications and SaaS Solutions - Software Engineering Africa" class="img-fluid" loading="lazy">
               </div>
               <div class="card-body">
                 <h5 class="card-title">Building Scalable Web Applications</h5>
