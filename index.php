@@ -7,9 +7,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Rootech IT Solutions | Software Engineering & Managed IT Services</title>
   <meta name="description"
-    content="Rootech IT Solutions (RITS) is Ghana's premier software engineering house. We build secure, scalable retail ecosystems like Venta POS, enterprise OCEAN ERP, and biometric attendance systems. Engineering the future of African business.">
+    content="Rootech IT Solutions (RITS) is Ghana's leading software engineering house and IT consultancy. We specialize in secure retail ecosystems like Venta POS, enterprise OCEAN ERP, and custom IT services in Accra. Engineering the future of African business.">
   <meta name="keywords"
-    content="IT company Ghana, software engineering Ghana, Rootech IT Solutions, Venta POS, OCEAN ERP, biometric systems Ghana, cloud architecture Africa, digital transformation, managed IT services Accra, software development West Africa">
+    content="IT company Ghana, software engineering Ghana, Rootech IT Solutions, Rootect, RITS Ghana, Venta POS, OCEAN ERP, biometric systems Ghana, managed IT services Accra, retail software Ghana, IT consultancy West Africa">
 
   <link rel="canonical" href="https://rootechits.com/">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -124,7 +124,7 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
-      <a href="#" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
         <span class="sitename">RITS</span><span>.</span>
@@ -174,20 +174,20 @@
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
             <div class="hero-content">
               <div class="hero-badge">
-                <span class="badge">✨ Transform Your Business With Technology</span>
+                <span class="badge">âœ¨ Transform Your Business With Technology</span>
               </div>
               <h1>Engineering the Future of African Business</h1>
               <p>Rootech IT Solutions provides elite software engineering, cloud architecture, and digital
                 transformation strategies for enterprises ready to scale.</p>
               <div class="hero-buttons">
-                <a href="https://wa.link/vnv6xb" class="btn btn-primary">
-                  <span>Let's Connect</span>
-                  <i class="bi bi-whatsapp ms-2"></i>
+                <a href="it-services-ghana.php" class="btn btn-primary">
+                  <span>IT Services</span>
+                  <i class="bi bi-cpu ms-2"></i>
                 </a>
-                <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-outline glightbox">
-                  <i class="bi bi-play-circle me-2"></i>
-                  <span>Watch Demo</span>
-                </a> -->
+                <a href="retail-solutions-ghana.php" class="btn btn-outline-primary">
+                  <span>Retail Solutions</span>
+                  <i class="bi bi-shop ms-2"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -346,7 +346,7 @@
                 and transform your business vision into reality.</p>
             </div>
             <div class="col-lg-5 text-lg-end">
-              <a href="#" class="btn-view-all">View All Services <i class="bi bi-arrow-right"></i></a>
+              <a href="#services" class="btn-view-all">View All Services <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -368,8 +368,8 @@
                 <li><i class="bi bi-check-circle"></i> Cloud &amp; SaaS Solutions</li>
                 <li><i class="bi bi-check-circle"></i> Maintenance &amp; Support</li>
               </ul>
-              <a href="#" class="service-cta">
-                <span>Explore Service</span>
+              <a href="it-services-ghana.php" class="btn btn-outline-primary btn-sm mt-3">
+                <span>Learn More</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -390,8 +390,8 @@
                 <li><i class="bi bi-check-circle"></i> Inventory &amp; Stock Management</li>
                 <li><i class="bi bi-check-circle"></i> Customer Loyalty Programs</li>
               </ul>
-              <a href="#" class="service-cta">
-                <span>Explore Service</span>
+              <a href="retail-solutions-ghana.php" class="btn btn-outline-primary btn-sm mt-3">
+                <span>Learn More</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -401,19 +401,18 @@
             <div class="service-item">
               <div class="service-header">
                 <div class="icon-wrapper">
-                  <i class="bi bi-code-slash"></i>
+                  <i class="bi bi-router"></i>
                 </div>
               </div>
-              <h3>Web Development & Consultancy</h3>
-              <p>Build fast, scalable, and secure web applications using cutting-edge technologies and best development
-                practices.</p>
+              <h3>Enterprise Networking</h3>
+              <p>Robust LAN, WAN, and Wi-Fi infrastructure designed for the high-demand environments of Ghanaian enterprises.</p>
               <ul class="feature-list">
-                <li><i class="bi bi-check-circle"></i> Custom Web Applications</li>
-                <li><i class="bi bi-check-circle"></i> E-commerce Solutions</li>
-                <li><i class="bi bi-check-circle"></i> API Integration</li>
+                <li><i class="bi bi-check-circle"></i> Structured Cabling</li>
+                <li><i class="bi bi-check-circle"></i> VPN & Remote Access</li>
+                <li><i class="bi bi-check-circle"></i> Network Security Audits</li>
               </ul>
-              <a href="#" class="service-cta">
-                <span>Explore Service</span>
+              <a href="it-services-ghana.php" class="btn btn-outline-primary btn-sm mt-3">
+                <span>Learn More</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -434,8 +433,8 @@
                 <li><i class="bi bi-check-circle"></i> Onsite &amp; Remote Workshops</li>
                 <li><i class="bi bi-check-circle"></i> Professional Development Courses</li>
               </ul>
-              <a href="#" class="service-cta">
-                <span>Explore Service</span>
+              <a href="it-services-ghana.php" class="btn btn-outline-primary btn-sm mt-3">
+                <span>Learn More</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -445,19 +444,18 @@
             <div class="service-item">
               <div class="service-header">
                 <div class="icon-wrapper">
-                  <i class="bi bi-megaphone"></i>
+                  <i class="bi bi-palette"></i>
                 </div>
               </div>
-              <h3>Digital Marketing</h3>
-              <p>Drive measurable results with data-driven marketing strategies that increase visibility and convert
-                prospects into customers.</p>
+              <h3>Graphics & Web Design</h3>
+              <p>Professional branding, UI/UX design, and custom website development that captures your brand's essence.</p>
               <ul class="feature-list">
-                <li><i class="bi bi-check-circle"></i> Social Media Marketing</li>
-                <li><i class="bi bi-check-circle"></i> Content Strategy</li>
-                <li><i class="bi bi-check-circle"></i> PPC Campaigns</li>
+                <li><i class="bi bi-check-circle"></i> High-Performance Web Dev</li>
+                <li><i class="bi bi-check-circle"></i> Professional Branding</li>
+                <li><i class="bi bi-check-circle"></i> Responsive UI/UX Design</li>
               </ul>
-              <a href="#" class="service-cta">
-                <span>Explore Service</span>
+              <a href="it-services-ghana.php" class="btn btn-outline-primary btn-sm mt-3">
+                <span>Learn More</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -467,19 +465,18 @@
             <div class="service-item">
               <div class="service-header">
                 <div class="icon-wrapper">
-                  <i class="bi bi-person-badge"></i>
+                  <i class="bi bi-tools"></i>
                 </div>
               </div>
-              <h3>IT Consultant</h3>
-              <p>Unlock the full potential of your business with expert IT consulting tailored to your unique challenges
-                and goals.</p>
+              <h3>Hardware Maintenance</h3>
+              <p>Professional troubleshooting, repair, and lifecycle management for servers, workstations, and peripherals.</p>
               <ul class="feature-list">
-                <li><i class="bi bi-check-circle"></i> Technology Strategy</li>
-                <li><i class="bi bi-check-circle"></i> Digital Transformation</li>
-                <li><i class="bi bi-check-circle"></i> IT Risk Assessment</li>
+                <li><i class="bi bi-check-circle"></i> Server Maintenance</li>
+                <li><i class="bi bi-check-circle"></i> Hardware Lifecycle Planning</li>
+                <li><i class="bi bi-check-circle"></i> Emergency Repairs</li>
               </ul>
-              <a href="#" class="service-cta">
-                <span>Explore Service</span>
+              <a href="it-services-ghana.php" class="btn btn-outline-primary btn-sm mt-3">
+                <span>Learn More</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -506,7 +503,7 @@
 
       </div>
 
-    </section><!-- /Services Section -->
+                    <p>Rootech IT Solutions (RITS) understands the unique technological landscape of Ghana. From stable cloud infrastructure to secure local networks, we provide the backbone for your business growth in West Africa.</p>
 
     <!-- Ventures Section -->
     <section id="ventures" class="services section">
@@ -527,7 +524,7 @@
                 operations and drive retail growth across Africa.</p>
             </div>
             <div class="col-lg-5 text-lg-end">
-              <a href="#" class="btn-view-all">View All Proprietary Innovations <i class="bi bi-arrow-right"></i></a>
+              <a href="#ventures" class="btn-view-all">View All Proprietary Innovations <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -550,7 +547,7 @@
                 <li><i class="bi bi-check-circle"></i> Smart Inventory Sync</li>
                 <li><i class="bi bi-check-circle"></i> Quick Thermal Printing</li>
               </ul>
-              <a href="venta-pos.html" class="service-cta">
+              <a href="venta-pos.html" class="btn btn-outline-primary btn-sm mt-3">
                 <span>Learn More</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -572,7 +569,7 @@
                 <li><i class="bi bi-check-circle"></i> Multi-branch Management</li>
                 <li><i class="bi bi-check-circle"></i> Detailed Financial Reports</li>
               </ul>
-              <a href="https://hub.rootechits.com" class="service-cta">
+              <a href="https://hub.rootechits.com" class="btn btn-outline-primary btn-sm mt-3">
                 <span>View Dashboard</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -595,7 +592,7 @@
                 <li><i class="bi bi-check-circle"></i> WhatsApp Order Integration</li>
                 <li><i class="bi bi-check-circle"></i> Direct Customer Engagement</li>
               </ul>
-              <a href="https://vengo.rootechits.com" class="service-cta">
+              <a href="https://vengo.rootechits.com" class="btn btn-outline-primary btn-sm mt-3">
                 <span>Explore VenGo</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -617,7 +614,7 @@
                 <li><i class="bi bi-check-circle"></i> Automated SMS Rewards</li>
                 <li><i class="bi bi-check-circle"></i> Spending Analytics</li>
               </ul>
-              <a href="#" class="service-cta">
+              <a href="it-services-ghana.php" class="btn btn-outline-primary btn-sm mt-3">
                 <span>Manage Loyalty</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -664,7 +661,7 @@
                 <li><i class="bi bi-check-circle"></i> <strong>Human Capital:</strong> HRM & CRM</li>
                 <li><i class="bi bi-check-circle"></i> <strong>Collaboration:</strong> Community & Tasks</li>
               </ul>
-              <a href="#" class="service-cta">
+              <a href="it-services-ghana.php" class="btn btn-outline-primary btn-sm mt-3">
                 <span>Request Enterprise Demo</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -686,7 +683,7 @@
                 <li><i class="bi bi-check-circle"></i> Real-time Attendance Logs</li>
                 <li><i class="bi bi-check-circle"></i> Automated Payroll Export</li>
               </ul>
-              <a href="ocean.rootechits.com" target="_blank" class="service-cta">
+              <a href="ocean.rootechits.com" target="_blank" class="btn btn-outline-primary btn-sm mt-3">
                 <span>Dive Into the Ocean</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -865,7 +862,7 @@
             <div class="intro-content">
               <span class="badge">Why Choose Us</span>
               <h3>Partner with a Team That Delivers Real Results</h3>
-              <p class="lead">We don't just create digital experiences—we build solutions that drive measurable growth.
+              <p class="lead">We don't just create digital experiencesâ€”we build solutions that drive measurable growth.
                 Our data-driven approach combines creativity with performance to help your business thrive in the
                 digital landscape.</p>
               <div class="stats-grid">
@@ -1053,12 +1050,12 @@
                   <div class="col-lg-8">
                     <h3>Seamless Web & IT Support for Lisadel Travel and Tour</h3>
                     <p>
-                      Working with Rootech IT Solutions has been one of the best business decisions I’ve made for
+                      Working with Rootech IT Solutions has been one of the best business decisions Iâ€™ve made for
                       Lisadel Travel and Tour. They built an attractive, high-performing website for us, and have
                       expertly managed our social media presence, which helped us reach more clients.
                     </p>
                     <p>
-                      The IT support and consultancy they provide are exceptional — responsive, knowledgeable, and
+                      The IT support and consultancy they provide are exceptional â€” responsive, knowledgeable, and
                       proactive. Whenever we encounter any technical challenge, their team is just a call away and
                       always ready to help. I highly recommend their services to any growing business!
                     </p>
@@ -1151,7 +1148,7 @@
                 </div>
                 <div class="channel-info">
                   <h5>Office</h5>
-                  <p>Accra, Ghana</p>
+                  <p>Japan Motors, Room 6, Accra, Adenta</p>
                   <span class="channel-meta">Visit us anytime</span>
                 </div>
               </div>
@@ -1224,6 +1221,15 @@
 
     </section><!-- /Contact Section -->
 
+    <!-- Map Section -->
+    <section class="section">
+      <div class="container" data-aos="fade-up">
+        <div class="rounded overflow-hidden shadow-lg border">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.0201231618157!2d-0.11792860000000001!3d5.695873299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf836a04ac095b%3A0xeadbaf80e0e10dc6!2sRootech%20IT%20Solutions%20LTD!5e1!3m2!1sen!2sgh!4v1777523850022!5m2!1sen!2sgh" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer id="footer" class="footer">
@@ -1235,7 +1241,7 @@
             <span class="sitename">RITS</span>
           </a>
           <p>Empowering your business with innovative digital solutions, robust cybersecurity, and transformative
-            technology—engineered for growth in a connected world.</p>
+            technologyâ€”engineered for growth in a connected world.</p>
           <div class="social-links d-flex mt-4">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -1247,38 +1253,38 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#ventures">Ventures</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="it-services-ghana.php">Web Development</a></li>
+            <li><a href="retail-solutions-ghana.php">Retail Solutions</a></li>
+            <li><a href="it-services-ghana.php">Product Management</a></li>
+            <li><a href="it-services-ghana.php">IT Consultancy</a></li>
+            <li><a href="it-services-ghana.php">Cyber Security</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>Accra, Ghana</p>
+          <p>Japan Motors, Room 6</p>
+          <p>Accra, Adenta, Ghana</p>
           <p class="mt-4"><strong>Phone:</strong> <span>+233 54 631 0011</span></p>
-          <p><strong>Email:</strong> <span><a href="mailto:info@rootechits.com">rootech.inc@proton.me</a></span>
-          </p>
+          <p><strong>Email:</strong> <span>info@rootechits.com</span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">RITS</strong> <span>All Rights Reserved</span></p>
+      <p>Â© <span>Copyright</span> <strong class="px-1 sitename">RITS</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
 
         Designed by <a href="https://rootechits.com/">Rootech IT Solutions</a>

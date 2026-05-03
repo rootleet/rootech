@@ -306,11 +306,11 @@ if ($post) {
               <div class="sidebar-widget">
                 <h4>Categories</h4>
                 <ul class="category-list">
-                  <li><a href="#">Technology</a></li>
-                  <li><a href="#">Business</a></li>
-                  <li><a href="#">Security</a></li>
-                  <li><a href="#">Innovation</a></li>
-                  <li><a href="#">Digital Marketing</a></li>
+                  <li><a href="it-services-ghana.php">Technology</a></li>
+                  <li><a href="retail-solutions-ghana.php">Business Solutions</a></li>
+                  <li><a href="it-services-ghana.php">IT Security</a></li>
+                  <li><a href="it-services-ghana.php">Innovation</a></li>
+                  <li><a href="index.php#services">Digital Marketing</a></li>
                 </ul>
               </div>
 
@@ -342,19 +342,20 @@ if ($post) {
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php#hero">Home</a></li>
             <li><a href="index.php#about">About us</a></li>
             <li><a href="index.php#services">Services</a></li>
+            <li><a href="index.php#ventures">Ventures</a></li>
             <li><a href="index.php#contact">Contact</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="index.php#services">Web Design</a></li>
-            <li><a href="index.php#services">Web Development</a></li>
-            <li><a href="index.php#services">IT Consulting</a></li>
-            <li><a href="index.php#services">Digital Marketing</a></li>
+            <li><a href="it-services-ghana.php">Web Development</a></li>
+            <li><a href="retail-solutions-ghana.php">Retail Solutions</a></li>
+            <li><a href="it-services-ghana.php">IT Consulting</a></li>
+            <li><a href="it-services-ghana.php">Cyber Security</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
